@@ -1,0 +1,71 @@
+.designer{
+    position: fixed;
+    z-index: -1;
+}
+
+
+.muscade {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    z-index: 1;
+    position: fixed;
+    right: 0;
+    left: 0;
+   
+}
+
+.works {
+    display: inline-flex;
+    transition: all ease-in-out 500ms;
+    transform: origin: 0 20;
+}
+
+.works:hover {
+    transform: rotateZ(30deg);
+   
+}
+
+.link{
+    
+}
+
+.studio {
+    font-size: 40pt;
+    text-align: center;
+    font-weight: 900;
+}
+
+.img {
+   
+   
+}
+
+.img-src {
+   display: block;
+   z-index: 1;
+   
+}
+
+.src {
+    
+}
+
+.projets {
+    text-align: center;
+    padding: 20px;
+}
+
+.line {
+    width: 10000px ;
+   height: 1.5px;
+   background-color: #c6c6c6;
+   margin-left: auto;
+   margin-right: auto ;
+}
+
+.mention{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
